@@ -7,7 +7,12 @@ import config from './config.js';
 
 const app = express();
 app.use(express.json());
-app.use(express.static('.'));
+// Serve index.html for all routes (except API)
+app.use(express.static('.', { index: 'index.html' }));
+
+app.get('/', (req, res) => {
+  res.sendFile('index.html', { root: '.' });
+});
 
 // Enable CORS
 app.use((req, res, next) => {
