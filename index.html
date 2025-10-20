@@ -843,7 +843,12 @@
        JAVASCRIPT
        ============================================ -->
   <script>
-    const API_URL = '/api'; // Relative URL for production
+    // Auto-detect environment
+const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? 'http://localhost:5000/api' 
+  : '/api';
+
+console.log('🔗 Using API:', API_URL);
     let employees = [];
     let currentEditId = null;
     let currentUser = null;
