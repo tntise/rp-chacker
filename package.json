@@ -1,0 +1,16 @@
+{
+  "name": "rp-tracker",
+  "version": "1.0.0",
+  "description": "RP expiry reminder system with email & telegram alerts",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.10.1"
+  }
+}

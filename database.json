@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": "1760968128146",
+      "name": "Rakin",
+      "email": "rakin@gmail.com",
+      "password": "Rakin123#",
+      "createdAt": "2025-10-20T13:48:48.146Z"
+    }
+  ],
+  "employees": [
+    {
+      "id": "1760967126287",
+      "serialNumber": 1,
+      "qidNumber": "566545666656",
+      "fullName": "rakin islam",
+      "nationality": "bangladesh",
+      "gender": "Male",
+      "rpExpiryDate": "2025-09-25",
+      "createdAt": "2025-10-20T13:32:06.287Z",
+      "notificationsSent": []
+    },
+    {
+      "id": "1760967376730",
+      "serialNumber": 2,
+      "qidNumber": "566545666656",
+      "fullName": "rakin islam",
+      "nationality": "bangladesh",
+      "gender": "Male",
+      "rpExpiryDate": "2025-10-09",
+      "createdAt": "2025-10-20T13:36:16.730Z",
+      "notificationsSent": []
+    },
+    {
+      "id": "1760968186003",
+      "userEmail": "rakin@gmail.com",
+      "serialNumber": 1,
+      "qidNumber": "566545666656",
+      "fullName": "rakin islam",
+      "nationality": "bangladesh",
+      "gender": "Male",
+      "rpExpiryDate": "2025-10-09",
+      "notificationsSent": [],
+      "createdAt": "2025-10-20T13:49:46.003Z"
+    },
+    {
+      "id": "1760969022276",
+      "userEmail": "rakin@gmail.com",
+      "serialNumber": 2,
+      "qidNumber": "566545666656",
+      "fullName": "rakin islam",
+      "nationality": "bangladesh",
+      "gender": "Male",
+      "rpExpiryDate": "2025-10-04",
+      "notificationsSent": [],
+      "createdAt": "2025-10-20T14:03:42.276Z"
+    }
+  ],
+  "settings": {
+    "lastCheck": "2025-10-20T14:05:48.621Z",
+    "rakin@gmail.com": {
+      "gmail": "ahmedradowan45@gmail.com",
+      "gmailPassword": "saki yceb tnvt rxyo",
+      "notifEmail": "rakinraj000@gmail.com",
+      "telegramToken": "8371762286:AAEKsevLootd0joYMtYrTWmaA25Grs2uia0",
+      "telegramChat": "7091660832",
+      "updatedAt": "2025-10-20T14:02:52.378Z"
+    }
+  }
+}
